@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button animation 1</title>
+  <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 180px;
+      height: 60px;
+      color: #fff;
+      background: #262626;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      line-height: 60px;
+      font-family: verdana;
+      font-size: 24px;
+      letter-spacing: 5px;
+      transition: .5s;
+      overflow: hidden;
+      box-sizing: border-box;
+      }
+      a:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        bottom: 0;
+        border-style: solid;
+        border-color: rgba(3,3,3,.5);
+        border-width: 80px 100px;
+        z-index: -1;
+        transform: rotate(360deg);
+        transition: 1s;
+        transform-origin: left;
+      }
+      a:hover:before {
+        border-color: rgb(25,25,25);
+        transform: rotate(60deg);
+
+
+      }
+  </style>
+</head>
+<body>
+  <a href="#">Button</a>
+</body>
+</html>
