@@ -1,6 +1,7 @@
-#Alien Invasion 
+# Alien Invasion 
 
-####Description of game
+### Description of game
+
 In Alien Invasion, the player controls a ship that appears at the bottom center of the screen. 
 The player can move the ship right and left using the arrow keys and shoot bullets using the
 spacebar. 
@@ -9,6 +10,6 @@ The player shoots and destroys the aliens. If the player shoots all the aliens, 
 moves faster than the previous fleet. If any alien hits the player’s ship or reaches the bottom of the screen, 
 the player loses a ship. If the player loses three ships, the game ends.
 
-Built with
+### Built with
 * Python 
 * [Pygame](https://www.pygame.org) free and open source library written in Python  
